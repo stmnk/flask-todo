@@ -10,3 +10,4 @@ if __name__ == "__main__":
     app.run(host ='0.0.0.0', port = 5001, debug = True) 
     
 # sudo docker build --tag flask-docker-demo-app .
+# sudo docker run --name flask-docker-demo-app -p 5001:5001 flask-docker-demo-app
